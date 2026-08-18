@@ -10,12 +10,12 @@
 <link rel="manifest" href="manifest.json" />
 <title>LoudWake</title>
 <style>
-:root{color-scheme:dark;--bg:#08090d;--card:#151720;--muted:#969bad;--accent:#ff5b45;--green:#35d07f;--line:#2a2e3b}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#1c2030,#08090d 45%);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;color:#fff;min-height:100dvh}.wrap{max-width:560px;margin:auto;padding:calc(env(safe-area-inset-top) + 22px) 16px calc(env(safe-area-inset-bottom) + 28px)}.hero{text-align:center;padding:12px 0 20px}.bell{font-size:58px}.hero h1{font-size:34px;margin:4px 0}.hero p{margin:0;color:var(--muted)}.card{background:rgba(21,23,32,.94);border:1px solid var(--line);border-radius:22px;padding:18px;margin:12px 0;box-shadow:0 14px 35px #0005}.card h2{font-size:18px;margin:0 0 14px}.row{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:10px 0}.stack{display:grid;gap:10px}input,select,button{font:inherit}input[type=time],input[type=password],select{width:100%;background:#0d0f15;border:1px solid #303544;color:#fff;border-radius:14px;padding:14px;font-size:17px}input[type=range]{width:100%}button{border:0;border-radius:15px;padding:14px 16px;font-weight:700;background:#272b38;color:#fff}.primary{background:var(--accent)}.good{background:var(--green);color:#04160d}.danger{background:#ff3b30}.small{padding:10px 12px;font-size:14px}.muted{color:var(--muted);font-size:13px;line-height:1.45}.status{padding:12px;border-radius:14px;background:#0d0f15;color:#b8bed0;text-align:center}.pattern{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:10px 28px}.dot{aspect-ratio:1;border-radius:50%;border:3px solid #596074;background:#11141c;display:grid;place-items:center;font-size:18px}.dot.on{background:#ff5b45;border-color:#ff8a7a}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px}.tabs button.active{background:#fff;color:#111}.hide{display:none!important}.alarm{position:fixed;inset:0;background:radial-gradient(circle,#4f1210,#050506 65%);z-index:20;padding:calc(env(safe-area-inset-top) + 24px) 18px calc(env(safe-area-inset-bottom) + 24px);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.alarm h1{font-size:42px;margin:12px}.alarm .clock{font-size:68px;font-weight:800}.alarm p{color:#e0bac0;max-width:420px}.photoBox{display:grid;gap:12px}.preview{width:100%;max-height:320px;object-fit:cover;border-radius:16px;border:1px solid var(--line)}.foot{text-align:center;color:#73798b;font-size:12px;margin-top:18px}
+:root{color-scheme:dark;--bg:#08090d;--card:#151720;--muted:#969bad;--accent:#ff5b45;--green:#35d07f;--line:#2a2e3b;--blue:#3b82f6}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#1c2030,#08090d 45%);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;color:#fff;min-height:100dvh}.wrap{max-width:560px;margin:auto;padding:calc(env(safe-area-inset-top) + 22px) 16px calc(env(safe-area-inset-bottom) + 28px)}.hero{text-align:center;padding:12px 0 20px}.bell{font-size:58px}.hero h1{font-size:34px;margin:4px 0}.hero p{margin:0;color:var(--muted)}.version{display:inline-block;margin-top:9px;padding:5px 9px;border:1px solid var(--line);border-radius:999px;color:#aeb5c8;font-size:12px}.card{background:rgba(21,23,32,.94);border:1px solid var(--line);border-radius:22px;padding:18px;margin:12px 0;box-shadow:0 14px 35px #0005}.card h2{font-size:18px;margin:0 0 14px}.row{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:10px 0}.stack{display:grid;gap:10px}input,select,button{font:inherit}input[type=time],input[type=password],select{width:100%;background:#0d0f15;border:1px solid #303544;color:#fff;border-radius:14px;padding:14px;font-size:17px}input[type=range]{width:100%}button{border:0;border-radius:15px;padding:14px 16px;font-weight:700;background:#272b38;color:#fff}.primary{background:var(--accent)}.good{background:var(--green);color:#04160d}.update{background:var(--blue)}.small{padding:10px 12px;font-size:14px}.muted{color:var(--muted);font-size:13px;line-height:1.45}.warning{color:#ffc66d;font-size:13px;line-height:1.45}.status{padding:12px;border-radius:14px;background:#0d0f15;color:#b8bed0;text-align:center}.pattern{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:10px 28px}.dot{aspect-ratio:1;border-radius:50%;border:3px solid #596074;background:#11141c;display:grid;place-items:center;font-size:18px}.dot.on{background:#ff5b45;border-color:#ff8a7a}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px}.tabs button.active{background:#fff;color:#111}.hide{display:none!important}.alarm{position:fixed;inset:0;background:radial-gradient(circle,#4f1210,#050506 65%);z-index:20;padding:calc(env(safe-area-inset-top) + 24px) 18px calc(env(safe-area-inset-bottom) + 24px);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.alarm h1{font-size:42px;margin:12px}.alarm .clock{font-size:68px;font-weight:800}.alarm p{color:#e0bac0;max-width:420px}.photoBox{display:grid;gap:12px}.preview{width:100%;max-height:320px;object-fit:cover;border-radius:16px;border:1px solid var(--line)}.foot{text-align:center;color:#73798b;font-size:12px;margin-top:18px}
 </style>
 </head>
 <body>
 <div class="wrap" id="main">
-  <div class="hero"><div class="bell">⏰</div><h1>LoudWake</h1><p>Будильник‑испытание для iPhone</p></div>
+  <div class="hero"><div class="bell">⏰</div><h1>LoudWake</h1><p>Будильник‑испытание для iPhone</p><span class="version">v2.0</span></div>
 
   <section class="card"><h2>1. Время</h2><input id="alarmTime" type="time" value="07:00"><div class="muted" style="margin-top:10px">Для гарантированного звонка поставь такое же время в стандартном приложении «Часы» на iPhone.</div></section>
 
@@ -23,10 +23,26 @@
 
   <section class="card"><h2>3. Фото‑задание</h2><select id="item"><option>Наушники</option><option>Растение</option><option>Кружка</option><option>Клавиатура</option><option>Обувь</option></select><div class="muted" style="margin-top:10px">Чтобы закончить испытание, нужно открыть камеру и сделать новую фотографию выбранного предмета.</div></section>
 
-  <section class="card"><h2>4. Громкость</h2><div class="row"><span>Тестовый звук</span><strong id="volLabel">70%</strong></div><input id="volume" type="range" min="10" max="100" value="70"><div class="row"><button id="testSound" class="primary">▶ Тест 3 секунды</button><button id="stopSound">Стоп</button></div><div class="muted">iPhone не разрешает сайту сделать звук громче системного максимума. Не тестируй 100% в наушниках или рядом с ухом.</div></section>
+  <section class="card"><h2>4. Звук</h2>
+    <div class="stack">
+      <label for="sound">Звук будильника</label>
+      <select id="sound">
+        <option value="siren">🚨 Сирена — вверх/вниз</option>
+        <option value="pulse">⚠️ Пульс — резкие сигналы</option>
+        <option value="double">🔔 Двойной сигнал</option>
+        <option value="rapid">⏰ Частая тревога</option>
+      </select>
+      <div class="row"><span>Громкость теста</span><strong id="volLabel">70%</strong></div>
+      <input id="volume" type="range" min="10" max="100" value="70">
+      <div class="row"><button id="testSound" class="primary">▶ Тест 3 секунды</button><button id="stopSound">Стоп</button></div>
+      <div class="warning">100% = максимум, который разрешает сам iPhone/Safari. Не проверяй максимальную громкость в наушниках или прямо возле уха.</div>
+    </div>
+  </section>
+
+  <section class="card"><h2>5. Обновления</h2><div class="stack"><button id="updateApp" class="update">🔄 Обновить LoudWake</button><div class="muted">Кнопка проверит новую версию и перезагрузит приложение. Сохранённые время, PIN, рисунок, предмет, звук и громкость не удаляются.</div></div></section>
 
   <section class="card"><div class="stack"><button id="save" class="good">Сохранить настройки</button><button id="testAlarm" class="primary">Проверить испытание сейчас</button><div class="status" id="status">Настройки ещё не сохранены</div></div></section>
-  <div class="foot">Добавь страницу на экран «Домой» через Safari → Поделиться → На экран «Домой».</div>
+  <div class="foot">Если LoudWake уже добавлен на экран «Домой», добавлять его заново после обновлений не нужно.</div>
 </div>
 
 <div id="alarmScreen" class="alarm hide">
@@ -36,28 +52,55 @@
   <div id="photoStep" class="photoBox hide" style="width:min(420px,100%)"><h2 id="findText">Найди предмет</h2><input id="camera" type="file" accept="image/*" capture="environment" class="hide"><button id="openCamera" class="primary">📷 Открыть камеру</button><img id="preview" class="preview hide" alt="Фото"><button id="finish" class="good hide">✅ Завершить испытание</button></div>
 </div>
 <script>
-const $=id=>document.getElementById(id);let mode='pin',pattern=[],tryPattern=[],ctx=null,osc=null,gain=null,alarmTimer=null,ringing=false;
-function buildGrid(id,arr,tryMode=false){const g=$(id);g.innerHTML='';for(let i=0;i<9;i++){const b=document.createElement('button');b.className='dot';b.textContent=i+1;b.onclick=()=>{if(!arr.includes(i)){arr.push(i);b.classList.add('on')}};g.appendChild(b)}}
-buildGrid('patternGrid',pattern);buildGrid('patternTryGrid',tryPattern,true);
+const $=id=>document.getElementById(id);
+let mode='pin',pattern=[],tryPattern=[],ctx=null,audioNodes=[],audioTimers=[],alarmTimer=null,ringing=false;
+
+function buildGrid(id,arr){const g=$(id);g.innerHTML='';for(let i=0;i<9;i++){const b=document.createElement('button');b.className='dot';b.textContent=i+1;b.onclick=()=>{if(!arr.includes(i)){arr.push(i);b.classList.add('on')}};g.appendChild(b)}}
+buildGrid('patternGrid',pattern);buildGrid('patternTryGrid',tryPattern);
+
 $('pinTab').onclick=()=>{mode='pin';$('pinTab').classList.add('active');$('patternTab').classList.remove('active');$('pinSetup').classList.remove('hide');$('patternSetup').classList.add('hide')};
 $('patternTab').onclick=()=>{mode='pattern';$('patternTab').classList.add('active');$('pinTab').classList.remove('active');$('patternSetup').classList.remove('hide');$('pinSetup').classList.add('hide')};
-$('patternReset').onclick=()=>{pattern=[];buildGrid('patternGrid',pattern)};$('patternTryReset').onclick=()=>{tryPattern=[];buildGrid('patternTryGrid',tryPattern,true)};
+$('patternReset').onclick=()=>{pattern=[];buildGrid('patternGrid',pattern)};
+$('patternTryReset').onclick=()=>{tryPattern=[];buildGrid('patternTryGrid',tryPattern)};
 $('volume').oninput=()=>$('volLabel').textContent=$('volume').value+'%';
-function audioStart(){if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();ctx.resume();if(osc)try{osc.stop()}catch(e){};osc=ctx.createOscillator();gain=ctx.createGain();osc.type='square';osc.frequency.value=880;gain.gain.value=(+$('volume').value/100)*0.24;osc.connect(gain).connect(ctx.destination);osc.start();}
-function audioStop(){if(osc){try{osc.stop()}catch(e){}osc=null}}
-$('testSound').onclick=()=>{audioStart();setTimeout(audioStop,3000)};$('stopSound').onclick=audioStop;
-function save(){if(mode==='pin'&&$('pin').value.length<4)return alert('PIN должен быть минимум 4 цифры');if(mode==='pattern'&&pattern.length<4)return alert('Выбери минимум 4 точки');const cfg={time:$('alarmTime').value,mode,pin:$('pin').value,pattern,item:$('item').value,volume:$('volume').value};localStorage.setItem('lwcfg',JSON.stringify(cfg));$('status').textContent='Сохранено: '+cfg.time+' • '+cfg.item;armTimer();return cfg}
+
+function clearAudioTimers(){audioTimers.forEach(t=>{clearInterval(t);clearTimeout(t)});audioTimers=[]}
+function audioStop(){clearAudioTimers();audioNodes.forEach(n=>{try{n.stop()}catch(e){}try{n.disconnect()}catch(e){}});audioNodes=[]}
+function createOsc(type,freq,level){const o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.value=freq;g.gain.value=level;o.connect(g).connect(ctx.destination);o.start();audioNodes.push(o);return {o,g}}
+
+function audioStart(profile){audioStop();if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();ctx.resume();const vol=Math.max(.1,Math.min(1,+$('volume').value/100));const base=.18*vol;profile=profile||$('sound').value||'siren';
+  if(profile==='siren'){
+    const a=createOsc('sawtooth',650,base);let high=false;const t=setInterval(()=>{high=!high;const now=ctx.currentTime;a.o.frequency.cancelScheduledValues(now);a.o.frequency.linearRampToValueAtTime(high?1100:650,now+.42)},450);audioTimers.push(t);
+  }else if(profile==='pulse'){
+    const a=createOsc('square',980,0);let on=false;const t=setInterval(()=>{on=!on;a.g.gain.setValueAtTime(on?base*1.15:0,ctx.currentTime)},150);audioTimers.push(t);
+  }else if(profile==='double'){
+    const a=createOsc('square',820,0),b=createOsc('square',1180,0);let step=0;const t=setInterval(()=>{step=(step+1)%4;const on1=step===0||step===1,on2=step===2;a.g.gain.setValueAtTime(on1?base*.75:0,ctx.currentTime);b.g.gain.setValueAtTime(on2?base*.65:0,ctx.currentTime)},180);audioTimers.push(t);
+  }else{
+    const a=createOsc('triangle',1050,0);let on=false;const t=setInterval(()=>{on=!on;a.g.gain.setValueAtTime(on?base:0,ctx.currentTime);a.o.frequency.setValueAtTime(on?1050:780,ctx.currentTime)},95);audioTimers.push(t);
+  }
+}
+$('testSound').onclick=()=>{audioStart($('sound').value);const t=setTimeout(audioStop,3000);audioTimers.push(t)};
+$('stopSound').onclick=audioStop;
+
+function save(){if(mode==='pin'&&$('pin').value.length<4)return alert('PIN должен быть минимум 4 цифры');if(mode==='pattern'&&pattern.length<4)return alert('Выбери минимум 4 точки');const old=JSON.parse(localStorage.getItem('lwcfg')||'{}');const cfg={...old,time:$('alarmTime').value,mode,pin:$('pin').value,pattern:[...pattern],item:$('item').value,volume:$('volume').value,sound:$('sound').value};localStorage.setItem('lwcfg',JSON.stringify(cfg));$('status').textContent='Сохранено: '+cfg.time+' • '+cfg.item+' • '+$('sound').options[$('sound').selectedIndex].text;armTimer();return cfg}
 $('save').onclick=save;
-function load(){try{const c=JSON.parse(localStorage.getItem('lwcfg'));if(!c)return;$('alarmTime').value=c.time||'07:00';$('pin').value=c.pin||'';$('item').value=c.item||'Наушники';$('volume').value=c.volume||70;$('volLabel').textContent=$('volume').value+'%';mode=c.mode||'pin';pattern=Array.isArray(c.pattern)?c.pattern:[];buildGrid('patternGrid',pattern);(mode==='pattern'?$('patternTab'):$('pinTab')).click();$('status').textContent='Сохранено: '+c.time+' • '+c.item}catch(e){}}load();
+
+function load(){try{const c=JSON.parse(localStorage.getItem('lwcfg'));if(!c)return;$('alarmTime').value=c.time||'07:00';$('pin').value=c.pin||'';$('item').value=c.item||'Наушники';$('volume').value=c.volume||70;$('sound').value=c.sound||'siren';$('volLabel').textContent=$('volume').value+'%';mode=c.mode||'pin';pattern=Array.isArray(c.pattern)?c.pattern:[];buildGrid('patternGrid',pattern);(mode==='pattern'?$('patternTab'):$('pinTab')).click();$('status').textContent='Настройки восстановлены ✅'}catch(e){}}load();
+
 function armTimer(){clearInterval(alarmTimer);alarmTimer=setInterval(()=>{const c=JSON.parse(localStorage.getItem('lwcfg')||'null');if(!c||ringing)return;const d=new Date(),now=String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');const key=d.toDateString()+now;if(now===c.time&&localStorage.getItem('lastRing')!==key){localStorage.setItem('lastRing',key);startChallenge(true)}},1000)}armTimer();
-function startChallenge(withSound=false){const c=JSON.parse(localStorage.getItem('lwcfg')||'{}');ringing=true;$('alarmScreen').classList.remove('hide');$('bigClock').textContent=c.time||new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});$('alarmText').textContent='Отключение: '+(c.mode==='pattern'?'графический ключ':'PIN')+' → фото «'+(c.item||'предмет')+'»';$('unlockPin').classList.toggle('hide',c.mode==='pattern');$('unlockPattern').classList.toggle('hide',c.mode!=='pattern');$('photoStep').classList.add('hide');$('finish').classList.add('hide');$('preview').classList.add('hide');$('pinTry').value='';tryPattern=[];buildGrid('patternTryGrid',tryPattern,true);if(withSound)audioStart()}
-$('testAlarm').onclick=()=>{save();startChallenge(true)};
+
+function startChallenge(withSound=false){const c=JSON.parse(localStorage.getItem('lwcfg')||'{}');ringing=true;$('alarmScreen').classList.remove('hide');$('bigClock').textContent=c.time||new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});$('alarmText').textContent='Отключение: '+(c.mode==='pattern'?'графический ключ':'PIN')+' → фото «'+(c.item||'предмет')+'»';$('unlockPin').classList.toggle('hide',c.mode==='pattern');$('unlockPattern').classList.toggle('hide',c.mode!=='pattern');$('photoStep').classList.add('hide');$('finish').classList.add('hide');$('preview').classList.add('hide');$('pinTry').value='';tryPattern=[];buildGrid('patternTryGrid',tryPattern);if(withSound)audioStart(c.sound||'siren')}
+$('testAlarm').onclick=()=>{const c=save();if(c)startChallenge(true)};
 function unlocked(){audioStop();$('unlockPin').classList.add('hide');$('unlockPattern').classList.add('hide');const c=JSON.parse(localStorage.getItem('lwcfg')||'{}');$('findText').textContent='Найди и сфотографируй: '+(c.item||'предмет');$('photoStep').classList.remove('hide')}
 $('checkPin').onclick=()=>{const c=JSON.parse(localStorage.getItem('lwcfg')||'{}');if($('pinTry').value===c.pin)unlocked();else{navigator.vibrate?.(200);alert('Неверный PIN')}};
-$('checkPattern').onclick=()=>{const c=JSON.parse(localStorage.getItem('lwcfg')||'{}');if(JSON.stringify(tryPattern)===JSON.stringify(c.pattern))unlocked();else{tryPattern=[];buildGrid('patternTryGrid',tryPattern,true);navigator.vibrate?.(200);alert('Неверный рисунок')}};
-$('openCamera').onclick=()=>$('camera').click();$('camera').onchange=e=>{const f=e.target.files?.[0];if(!f)return;const u=URL.createObjectURL(f);$('preview').src=u;$('preview').classList.remove('hide');$('finish').classList.remove('hide')};
+$('checkPattern').onclick=()=>{const c=JSON.parse(localStorage.getItem('lwcfg')||'{}');if(JSON.stringify(tryPattern)===JSON.stringify(c.pattern))unlocked();else{tryPattern=[];buildGrid('patternTryGrid',tryPattern);navigator.vibrate?.(200);alert('Неверный рисунок')}};
+$('openCamera').onclick=()=>$('camera').click();
+$('camera').onchange=e=>{const f=e.target.files?.[0];if(!f)return;const u=URL.createObjectURL(f);$('preview').src=u;$('preview').classList.remove('hide');$('finish').classList.remove('hide')};
 $('finish').onclick=()=>{audioStop();ringing=false;$('alarmScreen').classList.add('hide');$('status').textContent='Испытание выполнено ✅';$('camera').value=''};
-if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+
+let swReg=null;
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').then(r=>swReg=r).catch(()=>{});navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!window.__lwReloading){window.__lwReloading=true;location.reload()}})}
+$('updateApp').onclick=async()=>{const saved=localStorage.getItem('lwcfg');$('status').textContent='Проверяю обновление…';try{const reg=swReg||await navigator.serviceWorker.getRegistration();if(reg){await reg.update();if(reg.waiting)reg.waiting.postMessage({type:'SKIP_WAITING'})}if(saved)localStorage.setItem('lwcfg',saved);setTimeout(()=>location.reload(),700)}catch(e){$('status').textContent='Не удалось обновить. Попробуй ещё раз.'}};
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)armTimer()});
 </script>
 </body>
